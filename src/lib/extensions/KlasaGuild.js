@@ -15,7 +15,7 @@ Structures.extend("Guild", (Guild) => {
        * @since 0.0.1
        * @type {KlasaGuildMemberManager}
        */
-      this.members = new KlasaGuildMemberManager(this, members);
+      this.members = new KlasaGuildMemberManager(this);
     }
   }
 
